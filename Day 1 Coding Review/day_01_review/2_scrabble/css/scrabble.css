@@ -1,0 +1,48 @@
+.tile{
+    width: 44px;
+    height: 50px;
+    position: absolute;
+}
+
+.e{
+    left: 305;
+    top: 44;
+}
+
+.g{
+    left: 144px;
+    top: 93px;
+}
+.h{
+    left: 222;
+    top: 93px;
+}
+.l{
+    left: 199;
+    top: 323px;
+}
+.o{
+    left: 99;
+    top: 93px;
+}
+.r{
+    left: 134px;
+    top: 93px;
+}
+.u{
+    left: 166px;
+    top: 322;
+}
+
+.board{
+    width: 782px;
+    height: 872px;
+    border: solid red 1px;
+    background: url(../images/board.png);
+    background-size: 100%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
