@@ -48,18 +48,18 @@
 
 /* Flag of Trinidad and Tobago */
 .trinidad {
-    background-color: red; /* Red background */
+    background-color: red;   
     position: relative;
-    overflow: hidden; /* Hide the overflow of diagonal stripes */
+    overflow: hidden;
 }
 
 .trinidad::before {
     content: "";
     position: absolute;
-    top: -20%;
-    left: -20%;
-    width: 200%;
-    height: 200%;
-    transform: rotate(-45deg); /* Create diagonal band */
- 
+    top: -78%;
+    left: -180%;
+    width: 320%;
+    height: 40%;
+    background: linear-gradient(-180deg, white 20%,black 10%, black 70%, white -5%);
+    transform: rotate(46deg); /* Create the diagonal band */
 }
